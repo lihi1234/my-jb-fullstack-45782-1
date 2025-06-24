@@ -1,0 +1,62 @@
+
+/* new selector  */
+
+h1{
+    color: green;
+}
+
+html{
+    height: 100%;
+}
+body{
+    border: 2px orange dashed;
+    height: 100%;
+}
+
+p{
+    color: red;
+}
+
+/* class selector  */
+
+.banana{
+    color: yellow;
+    border: 1px solid pink;
+    border-radius: 4px;
+}
+
+.huge{
+    font-size: xx-large;
+}
+
+/* id selector  */
+#my-special-paragraph{
+    color: purple;
+}
+
+/* attribute selector  */
+
+input[placeholder]{
+    background-color: aqua;
+}
+
+/* pseudo selector  */
+
+a:hover{
+    color: pink;
+}
+
+a:visited{
+    color: red;
+}
+
+p::first-letter{
+    font-weight: bold;
+}
+
+/* combined selector  */
+
+p.huge{
+    text-decoration: line-through;
+}
+

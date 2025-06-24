@@ -1,0 +1,78 @@
+html{
+    direction: rtl;
+
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7PB2r2D72fzdOkxgcXs-ijUm_2vAmmHC46Q&s");
+     background-repeat:repeat-x;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+form{
+    float: right;
+}
+table{
+     border: 1px solid black;
+     
+}
+
+img{
+
+  width: 150px;
+  height: 150px;
+   
+ 
+}
+#img-container{
+    /* display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+  bottom: 0px;
+   position: absolute;
+   padding: 10px; */
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+#info{
+    background-color: aquamarine;
+}
+input [type="text"]{
+    background-color: yellow;
+}
+
+input [type="submit"]
+{
+    background-color:aqua;
+    
+}
+/* table td input{
+    background-color: yellow;
+} */
+.left{
+    text-align: left;
+    
+}
+
+#copyrights{
+    
+    text-align: center;
+}
+/* 
+#submit_button{
+    background-color: aquamarine;
+} */

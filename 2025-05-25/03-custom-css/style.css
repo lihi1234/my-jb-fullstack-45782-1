@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: roboto;
+    src: url('Indie_Flower/IndieFlower-Regular.ttf');
+}
+
+
+h1{
+    text-align: center;
+    color: darkred;
+    font-family: roboto ;
+}
+
+@keyframes myAnimation {
+    form{
+        color: blue;
+        transform: scale(2);
+    }
+
+    to{
+        color: red;
+         transform: scale(0.5);
+    }
+}
+
+
+/* @keyframes myLongAnimation{
+    0%{
+
+    }
+    50
+} */
+
+p{
+    text-align: center;
+    margin-top: 100px;
+    color: yellowgreen;
+}
+
+p:hover{
+    animation: myAnimation 3s infinite alternate linear;
+}
+
+@media (max-width: 600px) {
+    h2{
+        font-size: 48px;
+    }
+    
+}

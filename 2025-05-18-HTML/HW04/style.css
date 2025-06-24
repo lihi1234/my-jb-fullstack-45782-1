@@ -1,0 +1,22 @@
+body{
+    background-image: url("background.jpeg") ;
+    background-repeat:repeat-x;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family:fantasy;
+}
+
+p{
+    font-size: large;
+    border: 1px solid white;
+    /* background-color: rgb(54, 53, 53); */
+    
+    /* color:rgb(192, 233, 220); */
+    font-family: cursive;
+    /* background-color: aquamarine; */
+
+    
+}

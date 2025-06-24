@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: roboto;
+    src: url('Indie_Flower/IndieFlower-Regular.ttf');
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+div{
+    font-family: roboto;
+    color: aliceblue;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom left, yellow, black, red, pink, blue);
+    width: 600px;
+    height: 100px;
+    box-shadow: 10px 10px 5px grey;
+    padding: 20px;
+    animation: spin 7s infinite alternate linear;
+}
