@@ -34,25 +34,24 @@ const students = [ido, lior, itay];
 // }
 // console.log(sum/numOfGrades);
 
-let maxGrade=0;
-let minGrade=100;
-let maxStu='';
-let minStu='';
+let maxGrade = 0;
+let minGrade = 100;
+let maxStu = '';
+let minStu = '';
 
 
 for (const student of students) {
-    for (const grade of student.grades){
-        if(grade>maxGrade)
-        {
-            maxGrade=grade;
-            maxStu= student.name;
+    for (const grade of student.grades) {
+        if (grade > maxGrade) {
+            maxGrade = grade;
+            maxStu = student.name;
         }
-        if(grade<minGrade){
-            minGrade=grade;
-            minStu= student.name;
+        if (grade < minGrade) {
+            minGrade = grade;
+            minStu = student.name;
         }
     }
-    
+
 }
 
 console.log(`the highest grade is ${maxGrade} of ${maxStu}`)
