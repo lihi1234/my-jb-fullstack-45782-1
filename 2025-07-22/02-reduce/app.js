@@ -240,7 +240,16 @@ users=[
 // const maxValue= users.reduce((cumulative, {address:{geo:{lat}}})=> +lat>cumulative? +lat:cumulative, 0)
 // console.log(maxValue);
 
-const strings=["my", "name", "is", "lihi"]
+// const strings=["my", "name", "is", "lihi"]
 
-const completeStr= strings.reduce((newStr, str)=>newStr+(" "+str), "")
-console.log(completeStr);
+// const completeStr= strings.reduce((newStr, str)=>newStr+(" "+str), "")
+// console.log(completeStr);
+
+
+const average=(users.reduce((cumulative, {address:{geo:{lat}}})=> cumulative+(+lat), 0))/users.length
+console.log(average);
+
+const northUsers= users.reduce((cumulative, user)=> {if(+user.address.geo.lat>0){
+  cumulative.push(user)
+} return cumulative} ,[] )
+console.log(northUsers);
