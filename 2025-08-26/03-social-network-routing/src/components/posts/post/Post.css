@@ -1,0 +1,7 @@
+.Post{
+    display: flex;
+    flex-direction: column;
+}
+.Post img{
+    height: 50px;
+}

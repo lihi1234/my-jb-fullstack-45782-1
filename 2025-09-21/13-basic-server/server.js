@@ -1,0 +1,1 @@
+require('http').createServer((request, response)=>{response.end('<h1>hello world</h1>')}).listen(3000);
